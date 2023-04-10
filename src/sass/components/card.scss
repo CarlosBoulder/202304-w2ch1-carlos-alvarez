@@ -1,0 +1,75 @@
+.card {
+  display: flex;
+  background-color: beige;
+  padding: 30px;
+  width: fit-content;
+
+  &__element {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat";
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  &__image {
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-width: 300px;
+  }
+
+  &__category {
+    color: gray;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  &__title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 53.32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Fraunces";
+  }
+
+  &__description {
+    color: gray;
+    font-size: 1.5rem;
+    padding-top: 30px;
+  }
+
+  &__prices {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  &__new-price {
+    font-family: "Fraunces";
+    font-size: 3.5rem;
+    color: green;
+  }
+
+  &__old-price {
+    color: gray;
+    text-decoration: line-through;
+  }
+
+  &__cart {
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 70px;
+  }
+}
